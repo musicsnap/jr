@@ -1,0 +1,300 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* header*/
+
+body{transition:all 0.3s linear 0s;background:#f7f7f7;font-size:14px;}
+.site_nav{width:100%;height:100px;box-shadow:0 0 5px #rgba(0,0,0,0.4);background:#ffffff;}
+.site_nav_bd{width:1200px;margin:0 auto;}
+.site_nav_bd .site_nav_logo{float:left;margin-top:30px;}
+.site_nav_bd .nav{float:left;margin-top:35px;}
+.site_nav_bd .nav li{margin-right:20px;margin-left:40px;float:left;font-size:18px;}
+.site_nav_bd .nav li.curr a{color:#00a0e9;}
+.site_nav_bd .login_box{float:right;margin-left:20px;margin-top:36px;}
+.site_nav_bd .login_box .login_btn{border:1px solid #00a0e9;color:#00a0e9;font-size:16px;border-radius:3px;padding:7px 20px;}
+.site_nav_bd .login_box .reg_btn{ background:#00a0e9;color:#fff;font-size:16px;border-radius:3px;padding:8px 20px;margin-left:10px;}
+
+.bannerslider{ position:relative;width:100%;z-index:2;}
+.bannerslider,.bannerslider .pic li{height:450px;}
+.bannerslider .hd{text-align:right;position:absolute;left:50%;width:100px;margin-left:-100px;bottom:25px;z-index:999;}
+.bannerslider .hd a{cursor:pointer;margin-left:5px;border:2px solid #f6f6f6;float:left;text-align:center;width:10px;height:10px;border-radius:50%;}
+.bannerslider .hd a.on {border:2px solid #ff3d0b;}
+
+.investment_financing{width:1200px;margin:0 auto; overflow:hidden;margin-top:20px;}
+
+
+.inv_fina_left{}
+.inv_fina_left_h3{font-size:18px;padding-bottom:10px;}
+.inv_fina_left .inv_fina_left_dv{float:left;width:974px;border-top:2px solid #ff6666;border-left:0 none;height:405px;background:#fff;}
+.inv_fina_left .inv_fina_left_dv .fs48{font-size:48px;color:#ff3300;}
+.inv_fina_left .inv_fina_left_dv .fs48 span{font-size:26px;}
+
+.inv_fina_left .inv_fina_left_dv.bordergreen{border-top:2px solid #4bd9d2;}
+.inv_fina_left .inv_fina_left_dv.borderyellow{border-top:2px solid #ffbe21;}
+
+.inf_ld_350{width:350px;float:left;border-right:1px solid #dedede;margin-top:20px;}
+.inf_ld_300{width:310px;float:left;margin-top:20px; font-size:16px;line-height:32px;padding-left:20px;}
+.inf_ld_ch{ overflow:hidden; clear:both;color:#666;padding-top:20px;}
+.inf_ld_ch_icon1{margin-right:20px;}
+.inf_ld_ch_icon1 i,.inf_ld_ch_icon2 i{padding-right:5px;}
+
+.w226p{width:226px;}
+.inf_ld_ch_btn{ text-align:center;padding:10px 0;padding-top:30px; position:absolute;bottom:20px;left:45px;}
+.inf_ld_ch_btn a{width:140px;height:35px;line-height:35px;background:#ff9934;color:#fff;font-size:16px;display:inline-block;border-radius:3px;}
+
+
+.inv_fina_right{float:right;width:235px;}
+.inv_fina_left_list{border-top:2px solid #ff6666;border-right:1px solid #dedede;height:257px;}
+
+.inv_fina_left_list.bordergreen{border-top:2px solid #4bd9d2;}
+
+.financing_business{border:1px solid #dedede;border-top:2px solid #4bd9d2;height:237px;background:url(../images/icon8.jpg) no-repeat left bottom;padding:10px;}
+.shipping_business{border:1px solid #dedede;border-top:2px solid #ffbe21;height:237px;background:url(../images/icon9.jpg) no-repeat left bottom;padding:10px;}
+
+.inv_fina_left_list li{border-left:1px solid #dedede;border-bottom:1px solid #dedede;float:left;width:116px; text-align:center;height:100px;padding-top:28px;}
+
+
+
+
+.cooperative_organization{width:1200px;margin:0 auto;clear:both;padding-bottom:30px;}
+
+.cooperative_organization_list{padding-top:30px;}
+.cooperative_organization_list li{border:1px solid #dedede;margin-left:-1px; position:relative;background:#fff;float:left;margin-top:-1px;width:239px;height:60px;padding-top:25px;padding-bottom:25px;text-align:center;transition:all 0.6s ease-in-out 0s;}
+.cooperative_organization_list li:hover{transition:all 0.6s ease-in-out 0s;box-shadow:0 0 20px rgba(0,0,0,0.3);z-index:1;}
+
+.footer{background:#202125;overflow:hidden; clear:both;padding:30px 0;color:#fff;line-height:30px;}
+.footer a{padding:0 20px;color:#fff;}
+
+
+.goods_financing_banner{background:url(../images/icon19.jpg) no-repeat center top;height:300px; overflow:hidden; clear:both;width:100%;}
+.goods_financing_icon_wrap{width:100%;background:#f5f5f5; overflow:hidden; clear:both;padding:30px 0;}
+
+.goods_financing_icon{width:1200px;margin:0 auto;}
+
+.goods_fina_icon{float:left;}
+.goods_fina_icon li{float:left;width:100px; text-align:center;}
+.goods_fina_icon li a,.goods_fina_icon li span{display:block;}
+.goods_fina_icon li span{margin-top:5px;}
+.goods_fina_text{float:right;}
+.goods_fina_text p{ float:left;margin-left:30px;}
+.goods_fina_text span{ display:block;color:#ff3301; text-align:center;font-size:20px;padding-top:10px;}
+
+.loan_application_records{width:1200px;margin:0 auto;padding:30px 0;}
+.loan_application_records_h3{font-size:18px;border-bottom:1px solid #32bfff;padding-bottom:16px;margin-bottom:10px;}
+.loan_application_records_h3 a{ font-size:14px;}
+
+.loan_application_records_tab{width:100%;}
+.loan_application_records_tab tr th{text-align:center;padding:20px 0;border-bottom:1px solid #979797;}
+.loan_application_records_tab tr td{text-align:center;padding:20px 0;border-bottom:1px solid #dedede;}
+.loan_application_records_tab tr td.tal{text-align:left;}
+
+
+.goods_financing_time{padding-top:10px;}
+.gft_input{width:100px;padding:2px 5px;border:1px solid #dedede;}
+.gft_text{padding:3px 10px;margin:0 5px;}
+.gft_text:hover{background:#32bfff;color:#fff;border-radius:3px;}
+
+.goods_financing_category{padding-top:20px;}
+
+.loan_apr_h3{ font-size:18px;border-bottom:1px solid #979797;padding-bottom:20px;}
+
+.loan_apr_list{}
+.loan_apr_list li{border-bottom:1px solid #dedede; overflow:hidden; clear:both;padding:20px 0;}
+
+.loan_apr_list li .loan_apr_span{float:left;width:380px;padding-left:20px; text-align:right; padding-right:30px;}
+.loan_apr_list li .loan_apr_text{width:300px;border:1px solid #c1c1c1;padding:3px 10px;}
+
+.loan_apr_back_btn{border:1px solid #32bfff;color:#32bfff;width:180px;line-height:45px;height:45px; display:inline-block;text-align:center;border-radius:3px;font-size:16px;}
+.loan_apr_next_btn{background:#32bfff;color:#fff;width:180px;line-height:45px;height:45px; display:inline-block;text-align:center;border-radius:3px;margin-left:10px;font-size:16px;}
+.loan_apr_next_btn:hover{color:#fff;}
+
+.gf_bdt{background:url(../images/icon25.jpg) no-repeat center top;height:620px;overflow:hidden; clear:both;width:100%;}
+
+.gf_bdt_text{border:3px solid #fff;width:680px;height:370px;margin:0 auto;margin-top:110px;}
+.gf_bdt_text_t1{text-align:center;color:#fe603c;font-size:60px;font-weight:bold;padding-top:50px;}
+.gf_bdt_text_t2{text-align:center;color:#fff;font-size:44px;font-weight:bold;padding-top:10px;}
+.gf_bdt_text_t3{text-align:center;padding-top:40px;}
+.gf_bdt_text_btn{background:#ffab19;color:#fff;padding:10px 50px;font-size:18px;}
+.gf_bdt_text_btn:hover{color:#fff;border-radius:3px;}
+
+.loan_dk_list{ overflow:hidden; clear:both;padding:20px 0;}
+.loan_dk_list li{float:left;width:260px; text-align:center;margin:0 20px;}
+.loan_dk_list li p{ font-size:22px;padding-top:20px;}
+
+.gf_flow{background:url(../images/icon30.jpg) no-repeat center top;height:639px;overflow:hidden; clear:both;width:100%;}
+
+
+.enter_financ{width:1200px;margin:0 auto; overflow:hidden; clear:both;padding:30px 0;}
+.ef_text{padding-left:200px;padding-top:100px;line-height:30px;}
+.ef_text h3{padding-bottom:10px;}
+
+
+.enterprice_financ{background:url(../images/icon36.jpg) no-repeat center top;height:504px;overflow:hidden; clear:both;width:100%;}
+.enterprice_finac_title{width:1200px;margin:0 auto; font-size:22px;padding-top:100px;padding-bottom:10px;}
+.enterprice_finac_list{width:1200px;margin:0 auto;}
+.enterprice_finac_list li{margin-top:10px;overflow:hidden;background:#fff;padding:20px;border:1px solid #dddddd; clear:both;}
+.efl_pic{border-right:1px solid #dddddd; float:left;padding-right:30px;}
+.efl_s1{padding-left:30px;width:160px;}
+.efl_s2{width:160px;}
+.efl_s3{width:160px;}
+.efl_s4{width:180px;}
+.efl_s5{width:160px;margin-left:30px;margin-top:12px;}
+.risk_level_1{background:url(../images/risk_level.png) no-repeat 0 0;width:28px;height:13px;display:inline-block;margin-right:5px;}
+.risk_level_2{background:url(../images/risk_level.png) no-repeat 0 -14px;width:28px;height:13px;display:inline-block;margin-right:5px;}
+.risk_level_3{background:url(../images/risk_level.png) no-repeat 0 -29px;width:28px;height:13px;display:inline-block;margin-right:5px;}
+.risk_level_4{background:url(../images/risk_level.png) no-repeat 0 -43px;width:28px;height:13px;display:inline-block;margin-right:5px;}
+.risk_level_5{background:url(../images/risk_level.png) no-repeat 0 -57px;width:28px;height:13px;display:inline-block;margin-right:5px;}
+.efl_s5_btn{background:#ffab1a;color:#fff;width:176px;height:45px;line-height:45px; display:inline-block; text-align:center;border-radius:3px; font-size:16px;}
+.efl_s5_btn:hover{color:#fff;background:#f29a02;}
+
+.purchase_guide{width:1200px; overflow:hidden;margin:0 auto;}
+
+.purchase_guide_btn{padding-top:30px; padding-bottom:20px;}
+.purchase_guide_btn a{background:#32bfff;color:#fff; display:inline-block;width:300px;height:50px;line-height:50px; text-align:center; font-size:18px;border-radius:3px;}
+.purchase_guide_btn a:hover{color:#fff;}
+
+
+
+.wp_centeot_bg{ background:#f7f7f7;padding-bottom:30px;}
+.crumbs{width:1200px;margin:0 auto;padding:10px 0; overflow:hidden; clear:both;zoom:1;}
+.crumbs a{padding:0 5px;}
+.crumbs span{padding-left:5px;}
+.wp_content{width:1200px;margin:0 auto; overflow:hidden; clear:both;zoom:1;}
+.wp_total_amount{float:left;width:260px; background:#fff;}
+
+.ta_t1{border-bottom:1px solid #f0f0f0;font-size:16px;padding:20px 20px;}
+.ta_t2{font-size:16px;padding:10px 20px;}
+.ta_or{color:#ff4111; font-size:26px;font-weight:bold;padding-top:15px; overflow:hidden; clear:both;}
+.ta_or span{ font-size:16px;}
+.wp_total_amount p a{font-size:14px;margin-left:10px;}
+.ta_t3_wrap{background:#33b5e5;color:#fff;padding:15px 20px;line-height:36px;}
+
+.tmmf{ background:#f7f7f7;width:920px;float:right;}
+.wp_tab{padding:20px;background:#fff; overflow:hidden; clear:both;}
+.w_time{padding:10px;}
+.w_time a{margin:0 5px;}
+.w_time .curr{background:#ef6d01;color:#fff;padding:5px;border-radius:3px;}
+.w_time .curr:hover{ background:#e26700;color:#fff; text-decoration:none;}
+.time_text{border:1px solid #dedede;padding:4px 10px;width:150px;margin:0 5px;}
+.wp_tb tr th{background:#f5f5f5;line-height:44px;border-left:1px solid #fff;border-bottom:1px solid #fff;}
+.wp_tb tr td{ text-align:center; background:#fafafa;line-height:44px;border-left:1px solid #fff; font-size:16px;}
+
+.tm_wp_xw{background:#fff;padding:20px; overflow:hidden; clear:both;zoom:1;}
+.tm_wp_xw h3{float:left;font-size:20px;}
+.tm_wp_xw p{float:right;padding-top:5px;}
+.tm_wp_xw p a{margin-left:20px; text-decoration:underline;}
+.bra_tbn{padding-top:20px;padding-left:48px;}
+
+.mui-dialog{display:none;padding:6px;width:400px;height:130px;z-index:9999;
+/*position:absolute;left:50%;top:50%;transform:translate(-50%, -50%); 50%涓鸿嚜韬昂瀵哥殑涓€鍗�  CSS3鍐欐硶 */
+position:absolute;left:0;top:0;right:0;bottom:0;margin: auto;     /*鏈変簡杩欎釜灏辫嚜鍔ㄥ眳涓簡 */}
+.overlay-close{z-index:3;background:url(../images/tmclose.png) no-repeat 0 0;width:16px;height:16px;position:absolute;right:20px;top:16px;display: block;outline:medium none;}
+a.overlay-close:hover{background:url(../images/tmclose.png) no-repeat -16px 0;}
+.mui-diglog-wrap{background:#fff;height: 100%; overflow:hidden;position: relative;z-index:2; box-shadow: 1px 1px 7px rgba(129, 129, 129, 0.29);}
+.mui-dialog-header{background:#e6e6e6;font-size:14px;color:#1caaeb;line-height:35px;height:35px;padding-left:10px;}
+.mui-dialog-body{ position:relative;}
+.brandMsgTips{padding:10px;font-size:14px;color:#666;}
+.brandMsgTips-p{margin-top:10px;}
+.mui-dialog-skin{background:#000;width:100%;height:100%;left:0;opacity:0.2;filter:alpha(opacity=20);position:absolute;top:0;}
+.mui-dialog-mask{display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:99;background:#000;opacity: 0.3;filter:alpha(opacity=30);}
+
+.a_btn1{margin-left:420px;display:inline-block;text-align:center;border:0 none;background:#f46200;width:150px;height:38px;line-height:38px;color:#fff;cursor:pointer;}
+a.a_btn1:hover{text-decoration:none;color:#fff;background:#e75d01;}
+.a_btn2{border:0 none;display:inline-block;text-align:center;background:#00a0e8;width:150px;height:38px;line-height:38px;color:#fff;cursor:pointer;margin-left:10px;}
+a.a_btn2:hover{text-decoration:none;color:#fff;background:#0292d3;}
+
+
+.wp_list_profit{padding:20px 10px;width:270px;float:left; text-align:center;}
+.wp_list_bf6{background:#f6f6f6;}
+.wp_list_bf9{background:#fefefe;}
+.wp_list_d1{border-right:1px dotted #d1d1d1;}
+.payment_btn{font-size:16px;margin-left:10px;line-height:20px;}
+
+
+
+.banner_text{width:1200px;margin:0 auto;margin-top:-430px; position:relative;}
+
+
+.banner_smtx{background:#ececec;text-align:center;padding:30px 0;width:210px;}
+.banner_smtx a,.banner_smy a{display:block;}
+.banner_smtx p{padding-top:5px;}
+.banner_smy{width:210px;background:url(../images/icon37.jpg) no-repeat 178px 45px #fff;}
+.banner_smy h4{padding-left:20px;padding-top:24px;}
+.banner_smy p{margin:0 20px;border-bottom:1px solid #ebebeb;padding-bottom:24px;padding-top:5px;}
+
+
+.inv_fl_h3{padding:15px 20px;padding-left:40px;}
+.application_process{ overflow:hidden;clear:both;border-bottom:1px solid #e8e8e8;padding-bottom:30px;}
+.application_process li{width:153px;float:left;color:#333;padding-top:10px;text-align:center;}
+
+.left_last{float:left;border:1px solid #e8e8e8;width:17px;height:17px;background:url(../images/icon41.jpg) no-repeat;overflow:hidden;text-indent:-9999px;}
+a.left_last:hover{background:url(../images/icon43.jpg) no-repeat;border:1px solid #ff6767;}
+.right_next{float:left;border:1px solid #e8e8e8;width:17px;height:17px;margin-left:5px;background:url(../images/icon42.jpg) no-repeat;overflow:hidden;text-indent:-9999px;}
+a.right_next:hover{background:url(../images/icon44.jpg) no-repeat;border:1px solid #ff6767;}
+
+.inv_company{overflow:hidden;clear:both;padding-left:30px;height:130px;}
+.inv_company li{float:left;width:270px;padding:5px 10px;border:1px solid #e8e8e8;margin:5px 0 5px 10px;}
+.inv_company li:hover{border:1px solid #ff6767;color:#ff6767;}
+
+
+
+.buy_varieties{float:left;width:490px;padding-left:40px;padding-top:10px;}
+.buy_varieties h4{color:#333;font-size:16px;padding-top:10px;}
+.buy_varieties ul{overflow:hidden; clear:both;}
+.buy_varieties ul li{border:1px solid #e8e8e8;float:left;width:100px;height:35px;line-height:35px;text-align:center;margin-right:15px;margin-top:15px;}
+.buy_varieties ul li:hover{color:#4bd9d2;border:1px solid #4bd9d2;}
+.buy_warehouse{float:left;width:440px;padding-top:10px;}
+.buy_warehouse h4{color:#333;font-size:16px;padding-top:10px;}
+.buy_warehouse ul{overflow:hidden; clear:both;}
+.buy_warehouse ul li{border:1px solid #e8e8e8;float:left;width:89px;height:35px;line-height:35px;text-align:center;margin-right:14px;margin-top:15px;}
+.buy_warehouse ul li:hover{color:#4bd9d2;border:1px solid #4bd9d2;}
+
+
+
+.byellow.buy_varieties ul li:hover{color:#ffbe21;border:1px solid #ffbe21;}
+.byellow.buy_warehouse ul li:hover{color:#ffbe21;border:1px solid #ffbe21;}
+
+
+
+.enterprise_advantage{overflow:hidden;clear:both;background:#fff;margin-top:20px;}
+.enterprise_advantage .ea_tpi{width:1200px;margin:0 auto; overflow:hidden; clear:both;padding-bottom:20px;}
+
+.ea_aph3{font-size:16px;width:1200px;margin:0 auto;padding-top:20px;padding-bottom:10px;}
+
+.enterprise_advantage .ea_tpi ul{width:1300px;}
+.enterprise_advantage ul li{float:left;width:270px;height:300px;margin-right:40px;color:#fff;text-align:center;}
+.enterprise_advantage ul .ea_op1{background:url(../images/icon49.jpg) no-repeat;}
+.enterprise_advantage ul .ea_op2{background:url(../images/icon50.jpg) no-repeat;}
+.enterprise_advantage ul .ea_op3{background:url(../images/icon51.jpg) no-repeat;}
+.enterprise_advantage ul .ea_op4{background:url(../images/icon52.jpg) no-repeat;}
+
+.enterprise_advantage ul .ea_pic_top1{margin-top:70px;overflow:hidden;}
+.enterprise_advantage ul .ea_pic_top2{margin-top:70px;overflow:hidden;}
+.enterprise_advantage ul .ea_pic_top3{margin-top:70px;overflow:hidden;}
+.enterprise_advantage ul .ea_pic_top4{margin-top:70px;overflow:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

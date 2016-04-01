@@ -1,0 +1,2 @@
+<?php die('forbidden'); ?>
+{"appid":"101239822","appkey":"7d80cb9c5634aceb3686e7cf6a70694e","callback":"http://www.sumibuy.com/login/qqcallback","scope":"get_user_info,get_vip_info","errorReport":true,"storageType":"file","host":"localhost","user":"root","password":"root","database":"test"}

@@ -1,0 +1,137 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,lable,input,button,textarea,p,blockquote,th,td {margin: 0;padding: 0;}
+fieldset,img{border:0;}
+:focus{outline:0;}
+body{line-height:22px;font-size:12px;color:#373636;background: #fff;}
+address, caption, cite, code, dfn, em, th, var, optgroup,i{ font-style: normal; font-weight: normal;}
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal;}
+code,kbd,pre,samp{font-family:courier new,courier,monospace;}
+abbr, acronym { border: 0; font-variant: normal;}
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: 12px; font-style: inherit; font-weight: inherit;}
+code, kbd, samp, tt { font-size: 100%;}
+input, button, textarea, select{*font-size: 100%;}
+ol, ul {list-style:none;}
+
+caption{text-align: left;}
+:link,:visited ,ins {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none;}
+.clearfix {display: inline-block;}
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+address,cite,dfn,em,var{font-style:normal;}
+small{font-size:12px;}
+
+sub{vertical-align:text-bottom;}
+legend{color:#000;}
+button,input,select,textarea{font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix:after {clear: both;content: ".";display: block;height: 0;visibility: hidden;}
+
+body,button,input,select,textarea{font:14px/1.5 tahoma,arial,'Microsoft YaHei',\5b8b\4f53,sans-serif;}
+
+a{color:#333;text-decoration:none;}
+a:hover{color:#00a0e9;text-decoration:none;}
+.block,a.block,a.block:hover{color:#000;}
+
+
+.orange,a.orange,a.orange:hover{color:#fc722d;}
+.gray,a.gray,a.gray:hover{color:#999999;}
+.white,a.white,a.white:hover{color:#fff; text-decoration:none;}
+.yellow,a.yellow,a.yellow:hover{color:#ff8d04;}
+.blue,a.blue,a.blue:hover{color:#00a0e9;}
+.blues,a.blues,a.blues:hover{color:#005aa0;}
+.cb{vertical-align:middle;margin-top:-1px;margin-bottom:1px;margin-right:5px;}
+.green,a.green,a.green:hover{color:#5eb300;}
+.red,a.red,a.red:hover{color:#ff3300;}
+
+.fwb{font-weight:bold;}
+.fwn{font-weight:normal;}
+.fl{float:left;}
+.fr{float:right;}
+.tdn{text-decoration:none;}
+.tdu{text-decoration:underline;}
+.tdlt{text-decoration:line-through;}
+.cp{cursor:pointer;}
+.cd{cursor:default;}
+
+.p10p{padding:10px;}
+.pb5p{ padding-bottom:5px;}
+.pt10p{padding-top:10px;}
+.pt5p{padding-top:5px;}
+.plr5p{ padding:0 5px;}
+.ptb5p{ padding:5px 0;}
+.pl10p{ padding-left:10px;}
+.pl20p{ padding-left:20px;}
+.pl30p{ padding-left:30px;}
+.pl40p{ padding-left:40px;}
+.pl60p{ padding-left:60px;}
+.pl5p{ padding-left:5px;}
+.pr10p{ padding-right:10px;}
+.pr20p{ padding-right:20px;}
+.pr30p{ padding-right:30px;}
+.pr40p{ padding-right:40px;}
+.pb10p{ padding-bottom:10px;}
+.pt20p{padding-top:20px;}
+.mt3p{margin-top:3px;}
+.mt5p{margin-top:5px;}
+.mt15p{margin-top:20px;}
+.mt10p{margin-top:10px;}
+.mt20p{margin-top:20px;}
+.ml5p{margin-left:5px;display:inline;}
+.ml10p{margin-left:10px;display:inline;}
+.mr5p{margin-right:5px;display:inline;}
+.mr10p{margin-right:10px;display:inline;}
+.mb10p{margin-bottom:10px;}
+.mb20p{margin-bottom:20px;}
+.mb30p{margin-bottom:30px;}
+.mtb5{margin-bottom:5px;margin-top:5px;}
+.lh22p{line-height:22px;}
+.lh24p{line-height:24px;}
+.lh26p{line-height:26px;}
+.lh28p{line-height:28px;}
+.lh30p{line-height:30px;}
+
+
+
+
+.fs12p{font-size:12px;}
+.fs13p{font-size:13px;}
+.fs14p{font-size:14px;}
+.fs16p{font-size:16px;}
+.fs18p{font-size:18px;}
+.fs20p{font-size:20px;}
+.fs24p{font-size:24px;}
+.fs28p{font-size:28px;}
+.fs30p{font-size:30px;}
+
+.w230p{width:230px;}
+.w300p{width:300px;}
+.w500p{width:500px;}
+.h22p{height:22px;}
+.w150p{width:146px;}
+
+.db{display:block;}
+.di{display:inline;}
+.dib{display:inline-block;}
+.tal{text-align:left;}
+.tac{text-align:center;}
+.tar{text-align:right;}
+.clearboth{clear:both;height:1px;overflow:hidden; display:block;}
+.check_box{ margin-bottom:1px; margin-top:-1px; vertical-align:middle;}
+
+.price{font-family:arial,verdana;}/* 人民币符号双划线 */
+.ffw{font-family:'Microsoft Yahei';}
+.ffs{font-family:'宋体';}
+.ffa{font-family:Arial, Helvetica, sans-serif;}
+.ffa{ font-family:Arial;}
+.vam{vertical-align:middle;}
+.vat{vertical-align:top;}
+.vab{vertical-align:bottom;}
+
+.beaeaea{border:1px solid #eaeaea;}
+.bred{border:1px solid #f60f16;}
+.brf6{border-right:1px solid #eaeaea;}
+.dp{display:none;}
+
+.pr{position:relative;}
