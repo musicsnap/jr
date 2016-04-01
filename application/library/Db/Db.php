@@ -109,7 +109,7 @@ abstract class Db_Db {
 	}
 
 	public function query($sql) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		$this->result = $this->_query($sql);
@@ -141,11 +141,11 @@ abstract class Db_Db {
 		if (!$data && !$null_values)
 			return true;
 
-		if ($type == Db::INSERT)
+		if ($type == Db_Db::INSERT)
 			$insert_keyword = 'INSERT';
-		else if ($type == Db::INSERT_IGNORE)
+		else if ($type == Db_Db::INSERT_IGNORE)
 			$insert_keyword = 'INSERT IGNORE';
-		else if ($type == Db::REPLACE)
+		else if ($type == Db_Db::REPLACE)
 			$insert_keyword = 'REPLACE';
 		else
 			die(Tools::displayError('SQL Error'));
@@ -253,7 +253,7 @@ abstract class Db_Db {
 	 * @return bool
 	 */
 	public function execute($sql, $use_cache = true) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		$this->result = $this->query($sql);
@@ -273,7 +273,7 @@ abstract class Db_Db {
 	 * @return array|bool|mixed
 	 */
 	public function executeS($sql, $array = true, $use_cache = true) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		// This method must be used only with queries which display results
@@ -318,7 +318,7 @@ abstract class Db_Db {
 	 * @return bool|mixed
 	 */
 	public function getRow($sql, $use_cache = true) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		if (stripos($sql, ' limit ') === false)
@@ -355,7 +355,7 @@ abstract class Db_Db {
 	 * @return bool|mixed
 	 */
 	public function getValue($sql, $use_cache = true) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		if (!$result = $this->getRow($sql, $use_cache))
@@ -385,7 +385,7 @@ abstract class Db_Db {
 	}
 
 	protected function q($sql, $use_cache = true) {
-		if ($sql instanceof DbQuery)
+		if ($sql instanceof Db_DbQuery)
 			$sql = $sql->build();
 
 		$this->result = false;
@@ -421,15 +421,15 @@ abstract class Db_Db {
 	}
 
 	public static function checkConnection($server, $user, $pwd, $db, $new_db_link = true, $engine = null, $timeout = 5) {
-		return call_user_func_array(array(Db::getClass(), 'tryToConnect'), array($server, $user, $pwd, $db, $new_db_link, $engine, $timeout));
+		return call_user_func_array(array(Db_Db::getClass(), 'tryToConnect'), array($server, $user, $pwd, $db, $new_db_link, $engine, $timeout));
 	}
 
 	public static function checkEncoding($server, $user, $pwd) {
-		return call_user_func_array(array(Db::getClass(), 'tryUTF8'), array($server, $user, $pwd));
+		return call_user_func_array(array(Db_Db::getClass(), 'tryUTF8'), array($server, $user, $pwd));
 	}
 
 	public static function hasTableWithSamePrefix($server, $user, $pwd, $db, $prefix) {
-		return call_user_func_array(array(Db::getClass(), 'hasTableWithSamePrefix'), array($server, $user, $pwd, $db, $prefix));
+		return call_user_func_array(array(Db_Db::getClass(), 'hasTableWithSamePrefix'), array($server, $user, $pwd, $db, $prefix));
 	}
 
 }

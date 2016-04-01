@@ -1,6 +1,6 @@
 <?php
 
-class DbQuery {
+class Db_DbQuery {
 	protected $query = array(
 			'select' => array(),
 			'from' => '',
