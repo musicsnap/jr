@@ -1,6 +1,6 @@
 <?php
 
-class CacheXcache extends Cache_Cache {
+class Cache_CacheXcache extends Cache_Cache {
 	public function __construct() {
 		$this->keys = xcache_get(CACHE_KEY_PREFIX . self::KEYS_NAME);
 		if (!is_array($this->keys))

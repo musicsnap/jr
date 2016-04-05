@@ -1,6 +1,6 @@
 <?php
 
-class CacheApc extends Cache_Cache {
+class Cache_CacheApc extends Cache_Cache {
 	public function __construct() {
 		$this->keys = array();
 		$cache_info = apc_cache_info('user');

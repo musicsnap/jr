@@ -10,7 +10,7 @@ class IndexController extends Controller{
 
     public function indexAction(){
 
-        $service = new Yar_Server(new CategoryModel());
+        $service = new Yar_Server(new BaseModel());
         $service->handle();
 
     }

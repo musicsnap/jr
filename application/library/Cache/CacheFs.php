@@ -1,6 +1,6 @@
 <?php
 
-class CacheFs extends Cache_Cache {
+class Cache_CacheFs extends Cache_Cache {
 
 	protected $depth;
 
@@ -80,7 +80,7 @@ class CacheFs extends Cache_Cache {
 			if (mkdir($new_dir))
 				if (chmod($new_dir, 0777))
 					if ($level_depth - 1 > 0)
-						CacheFs::createCacheDirectories($level_depth - 1, $new_dir);
+						Cache_CacheFs::createCacheDirectories($level_depth - 1, $new_dir);
 		}
 	}
 

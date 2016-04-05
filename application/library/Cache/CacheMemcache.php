@@ -1,6 +1,6 @@
 <?php
 
-class CacheMemcache extends Cache_Cache {
+class Cache_CacheMemcache extends Cache_Cache {
 
 	protected $memcache;
 
