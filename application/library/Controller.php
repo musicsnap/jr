@@ -1,6 +1,7 @@
 <?php
 
-class Controller extends Yaf_Controller_Abstract{
+class Controller extends Yaf_Controller_Abstract
+{
 
     //配置文件
     protected $_config;
@@ -20,9 +21,12 @@ class Controller extends Yaf_Controller_Abstract{
 
     protected $_authManager;
 
+    //Layout
+    protected $_layout;
 
 
-    public function init(){
+    public function init()
+    {
         $this->_config = Yaf_Registry::get("config");
         $this->_session = Yaf_Session::getInstance();
         $this->_session->start();
@@ -30,8 +34,9 @@ class Controller extends Yaf_Controller_Abstract{
         //系统功能初始化
         $this->_db_handler = Yaf_Registry::get("db_handler");
         $this->_cache_handler = Yaf_Registry::get("cache_MemCache");
+        $this->_layout = Yaf_Registry::get('layout');
         $user_info = $this->_session->offsetGet('loginInfo');
-        $this->_view->user_info =$user_info;
+        $this->_view->user_info = $user_info;
 
 
     }

@@ -1557,7 +1557,7 @@ EOF;
 
 
 
-public static function sendToBrowser($file, $delaftersend = true, $exitaftersend = true) {
+	public static function sendToBrowser($file, $delaftersend = true, $exitaftersend = true) {
 		if (file_exists($file) && is_readable($file))
 		{
 			header('Content-Description: File Transfer');
