@@ -1,0 +1,5 @@
+#.htaccess, 当然也可以写在httpd.conf
+RewriteEngine On
+ RewriteRule ^(.*\.(?:css|less|scss|js|coffee|jpg|png|gif|jpeg))$ /?sumibuy=common/munee/&files=/$1 [L,QSA,NC]
+	    RewriteCond %{REQUEST_FILENAME} !-f
+            RewriteRule .* index.php
