@@ -9,13 +9,9 @@ class IndexController extends Controller{
     public function init(){}
 
     public function indexAction(){
-        /**
-         * 在windows下，安装了yar好像没成功
-         */
-        /*$service = new Yar_Server(new BaseModel());
-        $service->handle();*/
-
-
+        $service = new Yar_Server(new Services_UserService());
+        $service->handle();
+        die;
     }
 
     public function searchAction(){

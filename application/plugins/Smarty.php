@@ -21,8 +21,8 @@ class SmartyPlugin extends Yaf_Plugin_Abstract {
 
         $smarty_cfg = Yaf_Registry::get("config")->get("smarty")->toArray();
 
-        $this->_smarty->setScriptPath($smarty_cfg[strtolower($request->module)]['template_dir']);
-        $this->_smarty->setCompilePath($smarty_cfg[strtolower($request->module)]['compile_dir']);
+//        $this->_smarty->setScriptPath($smarty_cfg[strtolower($request->module)]['template_dir']);
+//        $this->_smarty->setCompilePath($smarty_cfg[strtolower($request->module)]['compile_dir']);
 
     }
 
